@@ -1,0 +1,20 @@
+{
+    "name": "notification-priority-inbox",
+    "version": "1.0.0",
+    "description": "Priority Inbox service that fetches and ranks notifications by type weight and recency.",
+    "main": "priority_inbox.js",
+    "scripts": {
+          "start": "node priority_inbox.js",
+          "build": "tsc",
+          "dev": "ts-node priority_inbox.ts",
+          "test": "echo \"No tests defined\" && exit 0"
+    },
+    "keywords": ["notifications", "priority", "inbox"],
+    "author": "12420019",
+    "license": "ISC",
+    "devDependencies": {
+          "typescript": "^5.4.5",
+          "@types/node": "^20.12.12",
+          "ts-node": "^10.9.2"
+    }
+}
